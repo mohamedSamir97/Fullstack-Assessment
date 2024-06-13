@@ -1,0 +1,24 @@
+.hidden-printable-area {
+    display: none;
+  }
+
+  @media print {
+    .hidden-printable-area {
+      display: block;
+    }
+
+    body * {
+      visibility: hidden;
+    }
+
+    #printableArea,
+    #printableArea * {
+      visibility: visible;
+    }
+
+    #printableArea {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
