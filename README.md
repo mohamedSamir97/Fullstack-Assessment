@@ -9,7 +9,6 @@ This project is a full-stack web application using Angular for the frontend and 
 - [Prerequisites](#prerequisites)
 - [Setup Instructions](#setup-instructions)
 - [Running the Project](#running-the-project)
-- [License](#license)
 
 ## Technologies Used
 
@@ -69,5 +68,25 @@ Before you begin, ensure you have the following installed on your local machine:
     ```sh
     npm install
     ```
-2. **Open your browser and navigate to http://localhost:4200**
 3. **Change apiUrl in environments/environment.ts to your api url**
+
+## Running the Project
+### Backend
+1. **Navigate to the backend directory:**
+    ```sh
+    cd BackEnd/ESAT-backend
+    ```
+2. **Run the backend:**
+    ```sh
+    dotnet run
+    ```
+### Frontend
+1. **Navigate to the frontend directory:**
+    ```sh
+    cd FrontEnd/ESAT-front
+    ```
+2. **Run the frontend:**
+    ```sh
+    ng serve
+    ```
+3. **Open your browser and navigate to http://localhost:4200.**
